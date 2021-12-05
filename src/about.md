@@ -17,6 +17,6 @@ tags:
 
 ## Contact
 
-Email: hi#imalan.cn (replace # with @)
+Email: plsharevme@gmail.com
 
-Telegram：[AlanDecode](https://t.me/alandecode)
+Telegram：[plsharevme](https://t.me/plsharevme)

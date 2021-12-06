@@ -28,6 +28,12 @@ author_homepage = "https://www.google.com"
 description = "My blog about life and everything"
 key_words = ['plsharevme', 'investing', 'blog']
 language = 'zh-CN'
+valine = {
+    "enable": True,
+    "el": '#vcomments',
+    "appId": "FxO7qfrM3Ec45j10hI4kYK8r-MdYXbMMI",
+    "appKey": "SuiLw8plNRMBPFks3bEBxprD",
+}
 external_links = [
     {
         "name": "Maverick",

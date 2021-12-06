@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "plsharevme/Blog-With-GitHub-Boilerplate@gh-pages"
+site_prefix = "plsharevme/@gh-pages"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10

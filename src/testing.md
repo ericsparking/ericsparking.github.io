@@ -1,15 +1,17 @@
+---
 layout: post
 title: test
-slug: testing-testing
-date: 2021-12-06 16:08
+slug: testing-test
+date: 2021-12-06 20:34
 status: publish
 author: plsharevme
-comment: true
 categories: 
-  - test
+  - 默认分类
 tags: 
-  - test
-  - testing
+  - 博客
+  - Maverick
+  - GitHub
+excerpt: Hello World!
 ---
 
-hello testing
+testing

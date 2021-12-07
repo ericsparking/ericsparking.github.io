@@ -5,7 +5,7 @@ slug: testing-test
 date: 2021-12-06 20:34
 status: publish
 author: plsharevme
-comment: true
+comment: false
 categories: 
   - 默认分类
 tags: 

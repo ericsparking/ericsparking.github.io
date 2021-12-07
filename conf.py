@@ -19,12 +19,6 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-valine = {
-    "enable": True,
-    "el": '#vcomments',
-    "appId": "FxO7qfrM3Ec45j10hI4kYK8r-MdYXbMMI",
-    "appKey": "SuiLw8plNRMBPFks3bEBxprD",
-}
 site_name = "PLSHAREVME_blog"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"

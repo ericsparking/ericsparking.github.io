@@ -20,7 +20,7 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "PLSHAREVME_blog"
+site_name = "𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "plsharevme"

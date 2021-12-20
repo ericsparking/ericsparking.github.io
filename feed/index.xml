@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link><description>My blog about life and everything</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/plsharevme/plsharevme.github.io@master/logo.png</url><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 16 Dec 2021 11:15:53 +0806</lastBuildDate><pubDate>Thu, 16 Dec 2021 11:15:53 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link><description>My blog about life and everything</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/plsharevme/plsharevme.github.io@master/logo.png</url><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 20 Dec 2021 16:29:15 +0806</lastBuildDate><pubDate>Mon, 20 Dec 2021 16:29:15 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -146,9 +146,21 @@
 &lt;li&gt;破山中贼易，破心中贼难。&lt;/li&gt;
 &lt;li&gt;天地生意，花草一般，何曾有善恶之分？子欲观花，则以花为善，以草为恶。如欲用草时，复以草为善矣。此等善恶，皆由汝心好恶所生，故知是错。&lt;/li&gt;
 &lt;/ul&gt;
-</description><author>plsharevme@gmail.com (plsharevme)</author><guid isPermaLink="true">/archives/action/</guid><pubDate>Wed, 08 Dec 2021 01:13:00 +0806</pubDate></item><item><title>投机理念</title><link>/archives/the-art-of-speculation/</link><description>&lt;h2&gt;在这里说说投机的个人理念。&lt;/h2&gt;
-&lt;h3&gt;1）技术误区&lt;/h3&gt;
-&lt;p&gt;a) 以为专家的技术会比普通者高，就能提高&lt;/p&gt;
+</description><author>plsharevme@gmail.com (plsharevme)</author><guid isPermaLink="true">/archives/action/</guid><pubDate>Wed, 08 Dec 2021 01:13:00 +0806</pubDate></item><item><title>投机理念</title><link>/archives/the-art-of-speculation/</link><description>&lt;h2&gt;在这里说说自己认为一位投机者应有的投机理念。&lt;/h2&gt;
+&lt;h3&gt;正确的理念&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;  以大概率进场，但心态要保持不确定性尤其在浮亏时。
+  做什么事情都需要成本，所以当你看错时，认输赔钱就是成本，也是最低的成本。
+  不听消息面，专注在股价的变动上。
+  不要相信自己的判断，而是观察自己的分析和价钱变动相吻合吗。
+  做顺势的交易，永远不要逆势。
+
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;错误的理念&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;  以为专家的技术会比普通者高，就能提高胜利，其实也就是提高那么一点点。
+  大众以为投机专家的技术很高超，其实他们只是比一般大众容易认赔。&lt;/code&gt;&lt;/pre&gt;
 </description><author>plsharevme@gmail.com (plsharevme)</author><guid isPermaLink="true">/archives/the-art-of-speculation/</guid><pubDate>Wed, 08 Dec 2021 20:34:00 +0806</pubDate></item><item><title>苏格拉底和柏拉图</title><link>/archives/socrates-philosophy/</link><description>&lt;p&gt;有一天，柏拉图问老师苏格拉底：什么是爱情？&lt;/p&gt;
 &lt;p&gt;苏格拉底说：我请你穿越这片麦田，去摘一株最大最金黄的麦穗回来，&lt;em&gt;&lt;strong&gt;但是有个规则——你不能走回头路，而且你只能摘一次。&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;于是柏拉图去做了。许久之后，他却空着双手回来了。&lt;/p&gt;

@@ -3,16 +3,16 @@
 ```
 ---
 layout: post
-title: 
-slug: 
-date: 2021-12- 20:34
+title: A interesting story
+slug: a-interesting-story
+date: 2019-12-11 16:08
 status: publish
-author: plsharevme
+author: AlanDecode
 categories: 
-  - 投机
+  - Daily
 tags: 
-  - 投机
-excerpt: 投机
+  - Travel
+  - Family
 ---
 
 ```

@@ -1,3 +1,6 @@
+# 博客模板
+
+```
 ---
 layout: post
 title: 
@@ -11,6 +14,8 @@ tags:
   - 投机
 excerpt: 投机
 ---
+
+```
 
 这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
 

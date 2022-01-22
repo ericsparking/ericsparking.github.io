@@ -1,3 +1,19 @@
+---
+layout: post
+title: 
+slug: 
+date: 2021-12- 20:34
+status: publish
+author: plsharevme
+categories: 
+  - 投机
+tags: 
+  - 投机
+excerpt: 投机
+---
+
+这是我的第一篇文章。文章使用 GitHub 管理，并通过 GitHub Actions 自动构建与发布！
+
 # Blog-With-GitHub-Boilerplate
 
 > 💡 注意：这不是所谓使用 Maverick 的「标准方法」，只不过是利用 Maverick 与 GitHub Actions 写博客一个流程而已。不要觉得非得这样不可。Maverick 的用法见 [README.md](https://github.com/AlanDecode/Maverick)。

@@ -5,9 +5,9 @@
 layout: post
 title: A interesting story
 slug: a-interesting-story
-date: 2019-12-11 16:08
+date: 2022-01-11 16:08
 status: publish
-author: AlanDecode
+author: plsharevme
 categories: 
   - Daily
 tags: 

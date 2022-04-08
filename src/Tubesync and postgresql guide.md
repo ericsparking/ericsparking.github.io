@@ -18,8 +18,8 @@ tags:
 ## TubeSync is a PVR (personal video recorder) for YouTube
 
 ### Docker compose example for tubesync with postgresql.
-<details>
-  <summary>Click to expand</summary>
+
+This is my personal enviroment compose file.
 
 ```
 version: "3.7"
@@ -33,14 +33,14 @@ services:
     ports:
       - 4848:4848
     volumes:
-      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/setting/tubesync:/config
-      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/youtube_downloads:/downloads
+      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/setting/tubesync:/config #edit your own path of config
+      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/youtube_downloads:/downloads #where location of your download folder
     environment:
       - TZ=Asia/Kuala_Lumpur
       - PUID=1000
       - PGID=100
       - UMASK=022
-      - DATABASE_CONNECTION=postgresql://tubeuser:tubepassword@db:5432/tubedb
+      - DATABASE_CONNECTION=postgresql://tubeuser:tubepassword@db:5432/tubedb #keyin your own user:password and last is database name.
 
 
   db:
@@ -59,12 +59,8 @@ services:
     volumes:
       - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/setting/postgresql:/var/lib/postgresql/data
 ```
-  
-  
-  </details>
-</details>
-  
-  ### Permission issue with PostgreSQL in docker container
+
+### Permission issue with PostgreSQL in docker container
   
 1. start the container using your normal docker-compose file, this creates the directory with the hardcoded uid:gid (999:999)
 

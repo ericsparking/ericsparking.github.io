@@ -8,11 +8,9 @@ author: plsharevme
 categories: 
   - computing network
 tags: 
-  - docker
   - postgresql
   - database
   - tubesync
-  - compose
 ---
 
 ## TubeSync is a PVR (personal video recorder) for YouTube

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link><description>My blog about life and everything</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/plsharevme/plsharevme.github.io@master/logo.png</url><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 08 Apr 2022 07:33:43 +0806</lastBuildDate><pubDate>Fri, 08 Apr 2022 07:33:43 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link><description>My blog about life and everything</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/plsharevme/plsharevme.github.io@master/logo.png</url><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 08 Apr 2022 07:37:19 +0806</lastBuildDate><pubDate>Fri, 08 Apr 2022 07:37:19 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -243,11 +243,9 @@
 &lt;/ul&gt;
 </description><author>plsharevme@gmail.com (plsharevme)</author><guid isPermaLink="true">/archives/to-improve-trading/</guid><pubDate>Sat, 22 Jan 2022 16:08:00 +0806</pubDate></item><item><title>Tubesync and postgresql guide</title><link>/archives/tubesync-and-postgresql-guide/</link><description>&lt;h2&gt;TubeSync is a PVR (personal video recorder) for YouTube&lt;/h2&gt;
 &lt;h3&gt;Docker compose example for tubesync with postgresql.&lt;/h3&gt;
-&lt;details&gt;
-  &lt;summary&gt;Click to expand&lt;/summary&gt;
+&lt;p&gt;This is my personal enviroment compose file.&lt;/p&gt;
 
-```
-version: "3.7"
+&lt;pre&gt;&lt;code&gt;version: "3.7"
 services:
   tubesync:
     image: ghcr.io/meeb/tubesync:latest
@@ -258,14 +256,14 @@ services:
     ports:
       - 4848:4848
     volumes:
-      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/setting/tubesync:/config
-      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/youtube_downloads:/downloads
+      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/setting/tubesync:/config #edit your own path of config
+      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/youtube_downloads:/downloads #where location of your download folder
     environment:
       - TZ=Asia/Kuala_Lumpur
       - PUID=1000
       - PGID=100
       - UMASK=022
-      - DATABASE_CONNECTION=postgresql://tubeuser:tubepassword@db:5432/tubedb
+      - DATABASE_CONNECTION=postgresql://tubeuser:tubepassword@db:5432/tubedb #keyin your own user:password and last is database name.
 
 
   db:
@@ -282,12 +280,8 @@ services:
       - 5432:5432
     restart: always
     volumes:
-      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/setting/postgresql:/var/lib/postgresql/data
-```
-
-
-  &lt;/details&gt;
-&lt;/details&gt;&lt;h3&gt;Permission issue with PostgreSQL in docker container&lt;/h3&gt;
+      - /srv/dev-disk-by-uuid-07a04a45-40a9-4876-a086-7cf85beb3688/data/setting/postgresql:/var/lib/postgresql/data&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Permission issue with PostgreSQL in docker container&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;start the container using your normal docker-compose file, this creates the directory with the hardcoded uid:gid (999:999)&lt;/li&gt;
 &lt;/ol&gt;

@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/backup-list-format-computer/</loc>
+    <lastmod>2022-04-11</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/tubesync-and-postgresql-guide/</loc>
     <lastmod>2022-04-08</lastmod>
     <changefreq>always</changefreq>

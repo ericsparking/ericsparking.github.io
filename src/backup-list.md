@@ -16,7 +16,7 @@ tags:
 
 ## Internet
 
-- [ ] browser bookmark & extension
+- [ ] browser bookmark,extension & userscript.
 - [ ] configuration rclone,
 - [ ] docker-compose file
 - [ ] colornote backup

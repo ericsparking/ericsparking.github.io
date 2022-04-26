@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link><description>My blog about life and everything</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/plsharevme/plsharevme.github.io@master/logo.png</url><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 18 Apr 2022 09:33:48 +0806</lastBuildDate><pubDate>Mon, 18 Apr 2022 09:33:48 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link><description>My blog about life and everything</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/plsharevme/plsharevme.github.io@master/logo.png</url><title>𝖕𝖑𝖘𝖍𝖆𝖗𝖊𝖛𝖒𝖊-𝖇𝖑𝖔𝖌</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 26 Apr 2022 19:05:31 +0806</lastBuildDate><pubDate>Tue, 26 Apr 2022 19:05:31 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -349,4 +349,18 @@ services:
 &lt;li&gt;[ ] &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Documents backup&lt;/h2&gt;
-</description><author>plsharevme@gmail.com (plsharevme)</author><guid isPermaLink="true">/archives/backup-list-format-computer/</guid><pubDate>Mon, 11 Apr 2022 16:08:00 +0806</pubDate></item></channel></rss>
+</description><author>plsharevme@gmail.com (plsharevme)</author><guid isPermaLink="true">/archives/backup-list-format-computer/</guid><pubDate>Mon, 11 Apr 2022 16:08:00 +0806</pubDate></item><item><title>何为妄想</title><link>/archives/too-much-thiking/</link><description>&lt;h2&gt;何为妄想。&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;还没有做的事情，你想到了后果如何，成功如何就是妄想。&lt;/li&gt;
+&lt;li&gt;当要做一样事情，还没做就想做了会受苦，会成功。&lt;/li&gt;
+&lt;li&gt;当你想做一件事情时，马上要去做时，在想&lt;em&gt;那一刹那&lt;/em&gt; 就是妄想。&lt;/li&gt;
+&lt;li&gt;当你认为你有能力实现或有方法实现梦想时，而只是停留在“想法” 和 “成果” 就是妄想。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;如何应对妄想&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;不是不要想，而是要丢掉想法，只有实现了“做”才真正的达到彼岸，才能不想。&lt;/li&gt;
+&lt;li&gt;成功和失败只是一个过程。不要预先想成果和后果。&lt;/li&gt;
+&lt;li&gt;应该以自己做不做的到来衡量，而不是以结果来衡量。&lt;/li&gt;
+&lt;li&gt;所有的法目的是达到彼岸，到了后就要放下舍弃。&lt;/li&gt;
+&lt;/ol&gt;
+</description><author>plsharevme@gmail.com (plsharevme)</author><guid isPermaLink="true">/archives/too-much-thiking/</guid><pubDate>Wed, 27 Apr 2022 16:08:00 +0806</pubDate></item></channel></rss>

@@ -16,7 +16,7 @@ template = {
 }
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "plsharevme/plsharevme.github.io@master"
+    "repo": "ericsparking/ericsparking.github.io@master"
 }
 
 # 站点设置
